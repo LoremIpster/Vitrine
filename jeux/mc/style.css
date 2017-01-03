@@ -1,0 +1,187 @@
+body{
+  font-family: Courier, Arial;
+}
+
+a.TextLink {
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+img.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+}
+
+img.ThumbnailImage{
+  width:53%;
+  height:53%;
+}
+
+img.MenuImage{
+  position: relative;
+  left: 30%;
+  margin-left;
+  margin-top;
+}
+
+br.Bio {
+  line-height: 300%;
+}
+
+          /* div */
+
+div.IndexContent{
+}
+
+div.Row01{
+  width: 100%;
+  text-align: center;
+}
+
+div.Row02{
+  margin : 0 auto;
+  text-align: center;
+}
+
+div.TitleCell{
+  display:inline-block;
+  text-align:center;
+  padding-top: 2cm;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div.NameCell{
+  display:inline-block;
+  text-align:center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 2cm;
+  padding-bottom: 1cm;
+}
+
+div.TextCell{
+  display:inline-block;
+  text-align:center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.Credits{
+  display:inline-block;
+  text-align:center;
+}
+
+div.MenuCell{
+  display:inline-block;
+  text-align:center;
+  padding:3px
+}
+
+div.TeamCell{
+  display:inline-block;
+  text-align:center;
+  padding-left: 2cm;
+  padding-right: 2cm;
+}
+
+div.MenuBar{
+  max-height:50px;
+}
+
+div.Return{
+  display: inline-block;
+  float: left;
+  max-height:50px;
+}
+
+div.Language{
+  display: inline-block;
+  float: right;
+  max-height:50px;
+}
+
+div.Container{
+display:flex;
+}
+
+div.Fixed{
+  width:550px;
+}
+
+div.FlexItem{
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+div.ImageBox{
+  min-width:550px;
+  min-height:200px;
+  max-width:400px;
+  max-height:200px;
+}
+
+        /* p */
+
+p.Name{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+p.Title{
+  text-align: center;
+  padding: 2cm;
+}
+
+p.BioTitle{
+  padding-top: 1.8cm;
+  padding-right:5cm;
+  padding-left:5cm;
+  padding-bottom:0.5cm;
+  text-align: center;
+}
+
+p.BioHead{
+  padding-top: 0.5cm;
+  padding-right:5cm;
+  padding-left:5cm;
+  padding-bottom:1cm;
+  text-align: center;
+}
+
+p.BioBody{
+  padding-top: 0.5cm;
+  padding-right:7cm;
+  padding-left:7cm;
+  padding-bottom:1cm;
+  text-align: justify;
+  line-height: 120%;
+
+}
+
+p.Description{
+  padding-top: 0.2cm;
+  padding-right:1cm;
+  padding-left:1cm;
+  padding-bottom:0.2cm;
+  text-align: justify;
+}
+
+        /* h */
+
+h1{
+  padding-top: 2cm;
+  padding-right:1cm;
+  padding-left:1cm;
+  padding-bottom:0.2cm;
+  text-align: justify;
+  font: inherit;
+  font-weight: bold;
+}
