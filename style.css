@@ -47,9 +47,23 @@ img.BioImage{
   width: 100%;
 }
 
+img.BigImage{
+  padding-top: 0.5cm;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
 img.ImageLink{
 height: 256px;
 width: 256px;
+}
+
+img.ImageAlignedRight{
+height: 256px;
+width: 256px;
+float:right;
+padding-top: 0.5cm;
 }
 
 img.TwineImageLink{
@@ -170,6 +184,7 @@ p.Description{
   padding-left:1cm;
   padding-bottom:0.2cm;
   text-align: justify;
+  max-width: 20cm;
 }
 
 p.Subtitle{
@@ -208,5 +223,13 @@ h3{
   padding: 0.5cm;
   font: inherit;
   padding-top: 2cm;
+  padding-left:1cm;
+}
+
+h4{
+  text-align: justify;
+  padding: 0.5cm;
+  font: inherit;
+  padding-top: 1cm;
   padding-left:1cm;
 }
