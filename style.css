@@ -73,6 +73,19 @@ outline-style: solid;
 outline-width: thin;
 }
 
+img.Overlay{
+  height: 80%%;
+  width: 100%;
+  position:absolute;
+  z-index:-1;
+}
+
+canvas{
+  position:relative;
+  z-index:-2;
+  padding-bottom: 2cm;
+}
+
           /* content div */
 
 div.Container{
