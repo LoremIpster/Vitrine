@@ -55,8 +55,8 @@ img.BigImage{
 }
 
 img.ImageLink{
-height: 256px;
-width: 256px;
+height: 512px;
+width: 512px;
 }
 
 img.ImageAlignedRight{
@@ -67,8 +67,8 @@ padding-top: 0.5cm;
 }
 
 img.TwineImageLink{
-height: 256px;
-width: 256px;
+height: 512px;
+width: 512px;
 outline-style: solid;
 outline-width: thin;
 }
@@ -83,13 +83,15 @@ img.Overlay{
 canvas{
   position:relative;
   z-index:-2;
-  padding-bottom: 2cm;
+  padding-top: 1cm;
 }
 
           /* content div */
 
 div.Container{
 display:flex;
+padding-left: 2cm;
+padding-bottom: 2cm;
 }
 
 div.Fixed{
@@ -154,11 +156,32 @@ div.MenuLang{
   align-content: right;
 }
 
+div.BioLinks{
+  text-align:center;
+  padding-bottom: 1cm;
+}
+
+div.BioText{
+  text-align:center;
+  padding-top: 0cm;
+  padding-bottom: 1cm;
+  padding-left: 8cm;
+  padding-right: 8cm;
+}
+
+div.BioFaq{
+  text-align:center;
+  padding-top: 0cm;
+  padding-bottom:0cm;
+}
+
 div.BioBox{
   text-align:center;
   padding-top: 1cm;
-  padding-bottom:1cm;
+  padding-bottom: 0cm;
 }
+
+
 
           /* menu div */
 
@@ -229,6 +252,7 @@ h2{
   padding: 0.5cm;
   font: inherit;
   padding-top: 2cm;
+  padding-bottom: 2cm;
 }
 
 h3{
