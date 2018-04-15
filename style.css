@@ -55,8 +55,8 @@ img.BigImage{
 }
 
 img.ImageLink{
-height: 512px;
-width: 512px;
+height: 256px;
+width: 256px;
 }
 
 img.ImageAlignedRight{
@@ -67,8 +67,8 @@ padding-top: 0.5cm;
 }
 
 img.TwineImageLink{
-height: 512px;
-width: 512px;
+height: 256px;
+width: 256px;
 outline-style: solid;
 outline-width: thin;
 }
@@ -249,7 +249,7 @@ h2{
   text-align: center;
   padding: 0.5cm;
   font: inherit;
-  padding-top: 2cm;
+  padding-top: 0cm;
   padding-bottom: 2cm;
 }
 
