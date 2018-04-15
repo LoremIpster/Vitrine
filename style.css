@@ -228,7 +228,11 @@ p.Subtitle{
   text-align: center;
 }
 
-p.Bio{
+p.BioText{
+  text-align: justify;
+}
+
+p.BioFaq{
   text-align: center;
 }
 
