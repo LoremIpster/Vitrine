@@ -1,0 +1,306 @@
+body{
+  font-family: Courier, Arial;
+}
+
+          /* a */
+
+
+
+a.IndexLink {
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a.EmailLink{
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+}
+
+a.PoemLink{
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+  padding-bottom: 0.5cm;
+}
+
+a.NavLink {
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+}
+
+a{
+  color: inherit;
+  text-decoration:none;
+  text-align: center;
+}
+
+
+
+          /* img */
+
+img.IndexImage{
+  width: 60%;
+  height: auto;
+  margin: 0;
+}
+
+img.BioImage{
+  padding-top: 0.5cm;
+  width: 100%;
+}
+
+img.BigImage{
+  padding-top: 0.5cm;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+img.ImageLink{
+height: 256px;
+width: 256px;
+}
+
+img.ImageAlignedRight{
+height: 256px;
+width: 256px;
+float:right;
+padding-top: 0.5cm;
+}
+
+img.TwineImageLink{
+height: 256px;
+width: 256px;
+outline-style: solid;
+outline-width: thin;
+}
+
+img.Overlay{
+  height: 80%%;
+  width: 100%;
+  position:absolute;
+  z-index:-1;
+}
+
+canvas{
+  position:relative;
+  z-index:-2;
+  padding-top: 1cm;
+}
+
+          /* content div */
+
+div.Container{
+display:flex;
+padding-left: 2cm;
+padding-bottom: 2cm;
+}
+
+div.Fixed{
+  width:550px;
+}
+
+div.FlexItem{
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+div.IndexContainer1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div.IndexContainer2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.IndexContainer3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.IndexContainer4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.FlexName{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+}
+
+div.FlexText{
+  text-align:center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+div.FlexImage{
+  text-align:center;
+  padding: 1cm;
+}
+
+div.MenuNav{
+  flex: 0 0 1;
+  align-content: left;
+}
+
+div.MenuLang{
+  flex: 0 0 1;
+  align-content: right;
+}
+
+div.BioLinks{
+  text-align:center;
+  padding-bottom: 1cm;
+}
+
+div.PoemBox{
+  text-align:center;
+  padding-top: 3cm;
+  line-height: 50px;
+}
+
+div.SplashBox{
+  text-align:center;
+  padding-top: 6cm;
+  /* line-height: 50px; */
+}
+
+div.BioText{
+  text-align:center;
+  padding-top: 0cm;
+  padding-bottom: 1cm;
+  padding-left: 8cm;
+  padding-right: 8cm;
+}
+
+div.BioFaq{
+  text-align:center;
+  padding-top: 0cm;
+  padding-bottom:0cm;
+}
+
+div.BioBox{
+  text-align:center;
+  padding-top: 1cm;
+  padding-bottom: 0cm;
+}
+
+div.WordBox{
+  text-align:center;
+  padding-top: 1cm;
+  padding-bottom: 0cm;
+}
+
+          /* menu div */
+
+div.MenuBar{
+  max-height:50px;
+}
+
+div.Return{
+  display: inline-block;
+  float: left;
+  max-height:50px;
+}
+
+div.Language{
+  display: inline-block;
+  float: right;
+  max-height:50px;
+}
+
+div.Navigation{
+  display: inline-block;
+  float: left;
+  max-height:50px;
+}
+
+        /* p */
+
+p.Title{
+  text-align: center;
+  padding: 2cm;
+}
+
+p.Description{
+  padding-top: 0.2cm;
+  padding-right:1cm;
+  padding-left:1cm;
+  padding-bottom:0.2cm;
+  text-align: justify;
+  max-width: 20cm;
+}
+
+p.Subtitle{
+  padding-right:1cm;
+  padding-left:1cm;
+  padding-bottom:1cm;
+  text-align: center;
+}
+
+p.BioText{
+  text-align: justify;
+}
+
+p.BioFaq{
+  text-align: center;
+}
+
+p.TextBlock{
+  text-align: center;
+}
+
+p.Placeholder{
+  padding-top:10cm;
+  padding-bottom:2cm;
+  text-align: center;
+}
+
+        /* h */
+
+h1{
+  text-align: center;
+  padding: 2cm;
+  font: inherit;
+}
+
+h2{
+  text-align: center;
+  padding: 0.5cm;
+  font: inherit;
+  padding-top: 0cm;
+  padding-bottom: 2cm;
+}
+
+h3{
+  text-align: justify;
+  padding: 0.5cm;
+  font: inherit;
+  padding-top: 2cm;
+  padding-left:1cm;
+}
+
+h4{
+  text-align: justify;
+  padding: 0.5cm;
+  font: inherit;
+  padding-top: 1cm;
+  padding-left:1cm;
+}
